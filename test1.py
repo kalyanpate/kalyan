@@ -1,12 +1,16 @@
+
+# First program
 # #print('hello , kalyan')
+
+# Variable assignement & printing
 # nme='kalyan'
 # age=269
-
 # #print(nme, ' ', age)
 
 # is_adult=True
 # #print(is_adult)
 
+# -Taking user input
 # #name= input("enter name ")
 # #print(name)
 
@@ -21,8 +25,9 @@
 # #print(5*2+3-5)
 
 
-#  #print(range(5+1))
+#  print(range(5+1))    #range operator
 
+# Loop using range
 # # i=0
 
 # # while i in range(5+1):
@@ -405,29 +410,29 @@ Variabale1="Hello World!"
 # print(i_count)
 
 
-# number gessing game
-import random
+# # number gessing game
+# import random
 
-number=random.randint(1,10)
-# print(number)
-def guess_game(number):
-    chances=5
-    chaceleft=0
-    for i in range(chances):
-        guess_num=int(input("enter a number: "))
-        if number == guess_num:
-            print("Congratulations ! you gussed correct number")
-            break
-        elif number > guess_num:
-            print("number is higher")
-        elif number < guess_num:
-            print("number is lower")
-        else:
-            print("invalid Input")
+# number=random.randint(1,10)
+# # print(number)
+# def guess_game(number):
+#     chances=5
+#     chaceleft=0
+#     for i in range(chances):
+#         guess_num=int(input("enter a number: "))
+#         if number == guess_num:
+#             print("Congratulations ! you gussed correct number")
+#             break
+#         elif number > guess_num:
+#             print("number is higher")
+#         elif number < guess_num:
+#             print("number is lower")
+#         else:
+#             print("invalid Input")
 
-        chaceleft +=1
-        print(f"{chances-chaceleft} chances are left!")
+#         chaceleft +=1
+#         print(f"{chances-chaceleft} chances are left!")
 
-    print("Game over!")
+#     print("Game over!")
 
-guess_game(number)
+# guess_game(number)
